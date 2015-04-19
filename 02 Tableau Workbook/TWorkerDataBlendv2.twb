@@ -6,9 +6,9 @@
   </preferences>
   <datasources>
     <datasource caption='TBACKGROUND' inline='true' name='Clipboard_20150419T135618' version='8.3'>
-      <connection class='textscan' directory='C:/Users/Andrea/Documents/My Tableau Repository/Datasources/Clipboard_20150419T135618'>
-        <relation name='Clipboard_20150419T135618#txt' table='[Clipboard_20150419T135618#txt]' type='table'>
-          <columns character-set='UTF-8' header='yes' locale='en_US' separator='&#9;'>
+      <connection class='textscan' directory='C:/cs329e/DataVisualization' filename='TSLEEPALERT.csv'>
+        <relation name='TBACKGROUND#csv' table='[TBACKGROUND#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
             <column datatype='integer' name='ID Number' ordinal='0' />
             <column datatype='integer' name='Age' ordinal='1' />
             <column datatype='real' name='Total years of service' ordinal='2' />
@@ -94,7 +94,7 @@
             <remote-name>ID Number</remote-name>
             <remote-type>20</remote-type>
             <local-name>[ID Number]</local-name>
-            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <parent-name>[TBACKGROUND#csv]</parent-name>
             <remote-alias>ID Number</remote-alias>
             <ordinal>0</ordinal>
             <local-type>integer</local-type>
@@ -109,7 +109,7 @@
             <remote-name>Age</remote-name>
             <remote-type>20</remote-type>
             <local-name>[Age]</local-name>
-            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <parent-name>[TBACKGROUND#csv]</parent-name>
             <remote-alias>Age</remote-alias>
             <ordinal>1</ordinal>
             <local-type>integer</local-type>
@@ -124,7 +124,7 @@
             <remote-name>Total years of service</remote-name>
             <remote-type>5</remote-type>
             <local-name>[Total years of service]</local-name>
-            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <parent-name>[TBACKGROUND#csv]</parent-name>
             <remote-alias>Total years of service</remote-alias>
             <ordinal>2</ordinal>
             <local-type>real</local-type>
@@ -139,7 +139,7 @@
             <remote-name>Years in present job</remote-name>
             <remote-type>5</remote-type>
             <local-name>[Years in present job]</local-name>
-            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <parent-name>[TBACKGROUND#csv]</parent-name>
             <remote-alias>Years in present job</remote-alias>
             <ordinal>3</ordinal>
             <local-type>real</local-type>
@@ -154,7 +154,7 @@
             <remote-name>Yard ops</remote-name>
             <remote-type>20</remote-type>
             <local-name>[Yard ops]</local-name>
-            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <parent-name>[TBACKGROUND#csv]</parent-name>
             <remote-alias>Yard ops</remote-alias>
             <ordinal>4</ordinal>
             <local-type>integer</local-type>
@@ -169,7 +169,7 @@
             <remote-name>Local frt</remote-name>
             <remote-type>20</remote-type>
             <local-name>[Local frt]</local-name>
-            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <parent-name>[TBACKGROUND#csv]</parent-name>
             <remote-alias>Local frt</remote-alias>
             <ordinal>5</ordinal>
             <local-type>integer</local-type>
@@ -184,7 +184,7 @@
             <remote-name>Road frt</remote-name>
             <remote-type>20</remote-type>
             <local-name>[Road frt]</local-name>
-            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <parent-name>[TBACKGROUND#csv]</parent-name>
             <remote-alias>Road frt</remote-alias>
             <ordinal>6</ordinal>
             <local-type>integer</local-type>
@@ -199,7 +199,7 @@
             <remote-name>Pass/comm ops</remote-name>
             <remote-type>20</remote-type>
             <local-name>[Pass/comm ops]</local-name>
-            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <parent-name>[TBACKGROUND#csv]</parent-name>
             <remote-alias>Pass/comm ops</remote-alias>
             <ordinal>7</ordinal>
             <local-type>integer</local-type>
@@ -214,7 +214,7 @@
             <remote-name>Other work</remote-name>
             <remote-type>20</remote-type>
             <local-name>[Other work]</local-name>
-            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <parent-name>[TBACKGROUND#csv]</parent-name>
             <remote-alias>Other work</remote-alias>
             <ordinal>8</ordinal>
             <local-type>integer</local-type>
@@ -229,7 +229,7 @@
             <remote-name>Conductor</remote-name>
             <remote-type>20</remote-type>
             <local-name>[Conductor]</local-name>
-            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <parent-name>[TBACKGROUND#csv]</parent-name>
             <remote-alias>Conductor</remote-alias>
             <ordinal>9</ordinal>
             <local-type>integer</local-type>
@@ -244,7 +244,7 @@
             <remote-name>RCL operator</remote-name>
             <remote-type>20</remote-type>
             <local-name>[RCL operator]</local-name>
-            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <parent-name>[TBACKGROUND#csv]</parent-name>
             <remote-alias>RCL operator</remote-alias>
             <ordinal>10</ordinal>
             <local-type>integer</local-type>
@@ -259,7 +259,7 @@
             <remote-name>Brakeman</remote-name>
             <remote-type>20</remote-type>
             <local-name>[Brakeman]</local-name>
-            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <parent-name>[TBACKGROUND#csv]</parent-name>
             <remote-alias>Brakeman</remote-alias>
             <ordinal>11</ordinal>
             <local-type>integer</local-type>
@@ -274,7 +274,7 @@
             <remote-name>Trainman</remote-name>
             <remote-type>20</remote-type>
             <local-name>[Trainman]</local-name>
-            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <parent-name>[TBACKGROUND#csv]</parent-name>
             <remote-alias>Trainman</remote-alias>
             <ordinal>12</ordinal>
             <local-type>integer</local-type>
@@ -289,7 +289,7 @@
             <remote-name>Trainee</remote-name>
             <remote-type>20</remote-type>
             <local-name>[Trainee]</local-name>
-            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <parent-name>[TBACKGROUND#csv]</parent-name>
             <remote-alias>Trainee</remote-alias>
             <ordinal>13</ordinal>
             <local-type>integer</local-type>
@@ -304,7 +304,7 @@
             <remote-name>Locomotive eng</remote-name>
             <remote-type>20</remote-type>
             <local-name>[Locomotive eng]</local-name>
-            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <parent-name>[TBACKGROUND#csv]</parent-name>
             <remote-alias>Locomotive eng</remote-alias>
             <ordinal>14</ordinal>
             <local-type>integer</local-type>
@@ -319,7 +319,7 @@
             <remote-name>Hostler</remote-name>
             <remote-type>20</remote-type>
             <local-name>[Hostler]</local-name>
-            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <parent-name>[TBACKGROUND#csv]</parent-name>
             <remote-alias>Hostler</remote-alias>
             <ordinal>15</ordinal>
             <local-type>integer</local-type>
@@ -334,7 +334,7 @@
             <remote-name>Yard foreman</remote-name>
             <remote-type>20</remote-type>
             <local-name>[Yard foreman]</local-name>
-            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <parent-name>[TBACKGROUND#csv]</parent-name>
             <remote-alias>Yard foreman</remote-alias>
             <ordinal>16</ordinal>
             <local-type>integer</local-type>
@@ -349,7 +349,7 @@
             <remote-name>Switchman</remote-name>
             <remote-type>20</remote-type>
             <local-name>[Switchman]</local-name>
-            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <parent-name>[TBACKGROUND#csv]</parent-name>
             <remote-alias>Switchman</remote-alias>
             <ordinal>17</ordinal>
             <local-type>integer</local-type>
@@ -364,7 +364,7 @@
             <remote-name>Other position</remote-name>
             <remote-type>20</remote-type>
             <local-name>[Other position]</local-name>
-            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <parent-name>[TBACKGROUND#csv]</parent-name>
             <remote-alias>Other position</remote-alias>
             <ordinal>18</ordinal>
             <local-type>integer</local-type>
@@ -379,7 +379,7 @@
             <remote-name>Marital status</remote-name>
             <remote-type>20</remote-type>
             <local-name>[Marital status]</local-name>
-            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <parent-name>[TBACKGROUND#csv]</parent-name>
             <remote-alias>Marital status</remote-alias>
             <ordinal>19</ordinal>
             <local-type>integer</local-type>
@@ -394,7 +394,7 @@
             <remote-name>Children/ dependents</remote-name>
             <remote-type>20</remote-type>
             <local-name>[Children/ dependents]</local-name>
-            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <parent-name>[TBACKGROUND#csv]</parent-name>
             <remote-alias>Children/ dependents</remote-alias>
             <ordinal>20</ordinal>
             <local-type>integer</local-type>
@@ -409,7 +409,7 @@
             <remote-name>Children under 2yrs</remote-name>
             <remote-type>20</remote-type>
             <local-name>[Children under 2yrs]</local-name>
-            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <parent-name>[TBACKGROUND#csv]</parent-name>
             <remote-alias>Children under 2yrs</remote-alias>
             <ordinal>21</ordinal>
             <local-type>integer</local-type>
@@ -424,7 +424,7 @@
             <remote-name>Caffeine</remote-name>
             <remote-type>20</remote-type>
             <local-name>[Caffeine]</local-name>
-            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <parent-name>[TBACKGROUND#csv]</parent-name>
             <remote-alias>Caffeine</remote-alias>
             <ordinal>22</ordinal>
             <local-type>integer</local-type>
@@ -439,7 +439,7 @@
             <remote-name>Daily caffeine amt</remote-name>
             <remote-type>20</remote-type>
             <local-name>[Daily caffeine amt]</local-name>
-            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <parent-name>[TBACKGROUND#csv]</parent-name>
             <remote-alias>Daily caffeine amt</remote-alias>
             <ordinal>23</ordinal>
             <local-type>integer</local-type>
@@ -454,7 +454,7 @@
             <remote-name>Sick days</remote-name>
             <remote-type>20</remote-type>
             <local-name>[Sick days]</local-name>
-            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <parent-name>[TBACKGROUND#csv]</parent-name>
             <remote-alias>Sick days</remote-alias>
             <ordinal>24</ordinal>
             <local-type>integer</local-type>
@@ -469,7 +469,7 @@
             <remote-name>Health status</remote-name>
             <remote-type>20</remote-type>
             <local-name>[Health status]</local-name>
-            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <parent-name>[TBACKGROUND#csv]</parent-name>
             <remote-alias>Health status</remote-alias>
             <ordinal>25</ordinal>
             <local-type>integer</local-type>
@@ -484,7 +484,7 @@
             <remote-name>Perceived age</remote-name>
             <remote-type>20</remote-type>
             <local-name>[Perceived age]</local-name>
-            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <parent-name>[TBACKGROUND#csv]</parent-name>
             <remote-alias>Perceived age</remote-alias>
             <ordinal>26</ordinal>
             <local-type>integer</local-type>
@@ -499,7 +499,7 @@
             <remote-name>Videotape</remote-name>
             <remote-type>20</remote-type>
             <local-name>[Videotape]</local-name>
-            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <parent-name>[TBACKGROUND#csv]</parent-name>
             <remote-alias>Videotape</remote-alias>
             <ordinal>27</ordinal>
             <local-type>integer</local-type>
@@ -514,7 +514,7 @@
             <remote-name>Brochure</remote-name>
             <remote-type>20</remote-type>
             <local-name>[Brochure]</local-name>
-            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <parent-name>[TBACKGROUND#csv]</parent-name>
             <remote-alias>Brochure</remote-alias>
             <ordinal>28</ordinal>
             <local-type>integer</local-type>
@@ -529,7 +529,7 @@
             <remote-name>Briefing</remote-name>
             <remote-type>20</remote-type>
             <local-name>[Briefing]</local-name>
-            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <parent-name>[TBACKGROUND#csv]</parent-name>
             <remote-alias>Briefing</remote-alias>
             <ordinal>29</ordinal>
             <local-type>integer</local-type>
@@ -544,7 +544,7 @@
             <remote-name>None</remote-name>
             <remote-type>20</remote-type>
             <local-name>[None]</local-name>
-            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <parent-name>[TBACKGROUND#csv]</parent-name>
             <remote-alias>None</remote-alias>
             <ordinal>30</ordinal>
             <local-type>integer</local-type>
@@ -559,7 +559,7 @@
             <remote-name>Other matls</remote-name>
             <remote-type>20</remote-type>
             <local-name>[Other matls]</local-name>
-            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <parent-name>[TBACKGROUND#csv]</parent-name>
             <remote-alias>Other matls</remote-alias>
             <ordinal>31</ordinal>
             <local-type>integer</local-type>
@@ -574,7 +574,7 @@
             <remote-name>Diagnosed sleep disorder</remote-name>
             <remote-type>20</remote-type>
             <local-name>[Diagnosed sleep disorder]</local-name>
-            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <parent-name>[TBACKGROUND#csv]</parent-name>
             <remote-alias>Diagnosed sleep disorder</remote-alias>
             <ordinal>32</ordinal>
             <local-type>integer</local-type>
@@ -589,7 +589,7 @@
             <remote-name>Sleep apnea</remote-name>
             <remote-type>20</remote-type>
             <local-name>[Sleep apnea]</local-name>
-            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <parent-name>[TBACKGROUND#csv]</parent-name>
             <remote-alias>Sleep apnea</remote-alias>
             <ordinal>33</ordinal>
             <local-type>integer</local-type>
@@ -604,7 +604,7 @@
             <remote-name>Medical treatment</remote-name>
             <remote-type>20</remote-type>
             <local-name>[Medical treatment]</local-name>
-            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <parent-name>[TBACKGROUND#csv]</parent-name>
             <remote-alias>Medical treatment</remote-alias>
             <ordinal>34</ordinal>
             <local-type>integer</local-type>
@@ -619,7 +619,7 @@
             <remote-name>Sleep arrangements</remote-name>
             <remote-type>20</remote-type>
             <local-name>[Sleep arrangements]</local-name>
-            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <parent-name>[TBACKGROUND#csv]</parent-name>
             <remote-alias>Sleep arrangements</remote-alias>
             <ordinal>35</ordinal>
             <local-type>integer</local-type>
@@ -634,7 +634,7 @@
             <remote-name>Company provisions</remote-name>
             <remote-type>20</remote-type>
             <local-name>[Company provisions]</local-name>
-            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <parent-name>[TBACKGROUND#csv]</parent-name>
             <remote-alias>Company provisions</remote-alias>
             <ordinal>36</ordinal>
             <local-type>integer</local-type>
@@ -649,7 +649,7 @@
             <remote-name>Schedule</remote-name>
             <remote-type>20</remote-type>
             <local-name>[Schedule]</local-name>
-            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <parent-name>[TBACKGROUND#csv]</parent-name>
             <remote-alias>Schedule</remote-alias>
             <ordinal>37</ordinal>
             <local-type>integer</local-type>
@@ -664,7 +664,7 @@
             <remote-name>Sun Start Time</remote-name>
             <remote-type>134</remote-type>
             <local-name>[Sun Start Time]</local-name>
-            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <parent-name>[TBACKGROUND#csv]</parent-name>
             <remote-alias>Sun Start Time</remote-alias>
             <ordinal>38</ordinal>
             <local-type>datetime</local-type>
@@ -679,7 +679,7 @@
             <remote-name>Sun End Time</remote-name>
             <remote-type>134</remote-type>
             <local-name>[Sun End Time]</local-name>
-            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <parent-name>[TBACKGROUND#csv]</parent-name>
             <remote-alias>Sun End Time</remote-alias>
             <ordinal>39</ordinal>
             <local-type>datetime</local-type>
@@ -694,7 +694,7 @@
             <remote-name>Mon Start Time</remote-name>
             <remote-type>134</remote-type>
             <local-name>[Mon Start Time]</local-name>
-            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <parent-name>[TBACKGROUND#csv]</parent-name>
             <remote-alias>Mon Start Time</remote-alias>
             <ordinal>40</ordinal>
             <local-type>datetime</local-type>
@@ -709,7 +709,7 @@
             <remote-name>Mon End Time</remote-name>
             <remote-type>134</remote-type>
             <local-name>[Mon End Time]</local-name>
-            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <parent-name>[TBACKGROUND#csv]</parent-name>
             <remote-alias>Mon End Time</remote-alias>
             <ordinal>41</ordinal>
             <local-type>datetime</local-type>
@@ -724,7 +724,7 @@
             <remote-name>Tues Start Time</remote-name>
             <remote-type>134</remote-type>
             <local-name>[Tues Start Time]</local-name>
-            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <parent-name>[TBACKGROUND#csv]</parent-name>
             <remote-alias>Tues Start Time</remote-alias>
             <ordinal>42</ordinal>
             <local-type>datetime</local-type>
@@ -739,7 +739,7 @@
             <remote-name>Tues End Time</remote-name>
             <remote-type>134</remote-type>
             <local-name>[Tues End Time]</local-name>
-            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <parent-name>[TBACKGROUND#csv]</parent-name>
             <remote-alias>Tues End Time</remote-alias>
             <ordinal>43</ordinal>
             <local-type>datetime</local-type>
@@ -754,7 +754,7 @@
             <remote-name>Wed Start Time</remote-name>
             <remote-type>134</remote-type>
             <local-name>[Wed Start Time]</local-name>
-            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <parent-name>[TBACKGROUND#csv]</parent-name>
             <remote-alias>Wed Start Time</remote-alias>
             <ordinal>44</ordinal>
             <local-type>datetime</local-type>
@@ -769,7 +769,7 @@
             <remote-name>Wed End Time</remote-name>
             <remote-type>134</remote-type>
             <local-name>[Wed End Time]</local-name>
-            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <parent-name>[TBACKGROUND#csv]</parent-name>
             <remote-alias>Wed End Time</remote-alias>
             <ordinal>45</ordinal>
             <local-type>datetime</local-type>
@@ -784,7 +784,7 @@
             <remote-name>Thu Start Time</remote-name>
             <remote-type>134</remote-type>
             <local-name>[Thu Start Time]</local-name>
-            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <parent-name>[TBACKGROUND#csv]</parent-name>
             <remote-alias>Thu Start Time</remote-alias>
             <ordinal>46</ordinal>
             <local-type>datetime</local-type>
@@ -799,7 +799,7 @@
             <remote-name>Thu End Time</remote-name>
             <remote-type>134</remote-type>
             <local-name>[Thu End Time]</local-name>
-            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <parent-name>[TBACKGROUND#csv]</parent-name>
             <remote-alias>Thu End Time</remote-alias>
             <ordinal>47</ordinal>
             <local-type>datetime</local-type>
@@ -814,7 +814,7 @@
             <remote-name>Fri Start Time</remote-name>
             <remote-type>134</remote-type>
             <local-name>[Fri Start Time]</local-name>
-            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <parent-name>[TBACKGROUND#csv]</parent-name>
             <remote-alias>Fri Start Time</remote-alias>
             <ordinal>48</ordinal>
             <local-type>datetime</local-type>
@@ -829,7 +829,7 @@
             <remote-name>Fri End Time</remote-name>
             <remote-type>134</remote-type>
             <local-name>[Fri End Time]</local-name>
-            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <parent-name>[TBACKGROUND#csv]</parent-name>
             <remote-alias>Fri End Time</remote-alias>
             <ordinal>49</ordinal>
             <local-type>datetime</local-type>
@@ -844,7 +844,7 @@
             <remote-name>Sat Start Time</remote-name>
             <remote-type>134</remote-type>
             <local-name>[Sat Start Time]</local-name>
-            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <parent-name>[TBACKGROUND#csv]</parent-name>
             <remote-alias>Sat Start Time</remote-alias>
             <ordinal>50</ordinal>
             <local-type>datetime</local-type>
@@ -859,7 +859,7 @@
             <remote-name>Sat End Time</remote-name>
             <remote-type>134</remote-type>
             <local-name>[Sat End Time]</local-name>
-            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <parent-name>[TBACKGROUND#csv]</parent-name>
             <remote-alias>Sat End Time</remote-alias>
             <ordinal>51</ordinal>
             <local-type>datetime</local-type>
@@ -874,7 +874,7 @@
             <remote-name>Home call time</remote-name>
             <remote-type>134</remote-type>
             <local-name>[Home call time]</local-name>
-            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <parent-name>[TBACKGROUND#csv]</parent-name>
             <remote-alias>Home call time</remote-alias>
             <ordinal>52</ordinal>
             <local-type>datetime</local-type>
@@ -889,7 +889,7 @@
             <remote-name>Away call time</remote-name>
             <remote-type>134</remote-type>
             <local-name>[Away call time]</local-name>
-            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <parent-name>[TBACKGROUND#csv]</parent-name>
             <remote-alias>Away call time</remote-alias>
             <ordinal>53</ordinal>
             <local-type>datetime</local-type>
@@ -904,7 +904,7 @@
             <remote-name>24 h call window</remote-name>
             <remote-type>20</remote-type>
             <local-name>[24 h call window]</local-name>
-            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <parent-name>[TBACKGROUND#csv]</parent-name>
             <remote-alias>24 h call window</remote-alias>
             <ordinal>54</ordinal>
             <local-type>integer</local-type>
@@ -919,7 +919,7 @@
             <remote-name>Call window from</remote-name>
             <remote-type>134</remote-type>
             <local-name>[Call window from]</local-name>
-            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <parent-name>[TBACKGROUND#csv]</parent-name>
             <remote-alias>Call window from</remote-alias>
             <ordinal>55</ordinal>
             <local-type>datetime</local-type>
@@ -934,7 +934,7 @@
             <remote-name>Call window to</remote-name>
             <remote-type>134</remote-type>
             <local-name>[Call window to]</local-name>
-            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <parent-name>[TBACKGROUND#csv]</parent-name>
             <remote-alias>Call window to</remote-alias>
             <ordinal>56</ordinal>
             <local-type>datetime</local-type>
@@ -949,7 +949,7 @@
             <remote-name>Check lineup</remote-name>
             <remote-type>20</remote-type>
             <local-name>[Check lineup]</local-name>
-            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <parent-name>[TBACKGROUND#csv]</parent-name>
             <remote-alias>Check lineup</remote-alias>
             <ordinal>57</ordinal>
             <local-type>integer</local-type>
@@ -964,7 +964,7 @@
             <remote-name>Avg work hrs per week</remote-name>
             <remote-type>20</remote-type>
             <local-name>[Avg work hrs per week]</local-name>
-            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <parent-name>[TBACKGROUND#csv]</parent-name>
             <remote-alias>Avg work hrs per week</remote-alias>
             <ordinal>58</ordinal>
             <local-type>integer</local-type>
@@ -979,7 +979,7 @@
             <remote-name>Rest days</remote-name>
             <remote-type>20</remote-type>
             <local-name>[Rest days]</local-name>
-            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <parent-name>[TBACKGROUND#csv]</parent-name>
             <remote-alias>Rest days</remote-alias>
             <ordinal>59</ordinal>
             <local-type>integer</local-type>
@@ -994,7 +994,7 @@
             <remote-name>Other assignment</remote-name>
             <remote-type>20</remote-type>
             <local-name>[Other assignment]</local-name>
-            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <parent-name>[TBACKGROUND#csv]</parent-name>
             <remote-alias>Other assignment</remote-alias>
             <ordinal>60</ordinal>
             <local-type>integer</local-type>
@@ -1009,7 +1009,7 @@
             <remote-name>Alertness during work</remote-name>
             <remote-type>20</remote-type>
             <local-name>[Alertness during work]</local-name>
-            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <parent-name>[TBACKGROUND#csv]</parent-name>
             <remote-alias>Alertness during work</remote-alias>
             <ordinal>61</ordinal>
             <local-type>integer</local-type>
@@ -1024,7 +1024,7 @@
             <remote-name>Work schedule irregular</remote-name>
             <remote-type>20</remote-type>
             <local-name>[Work schedule irregular]</local-name>
-            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <parent-name>[TBACKGROUND#csv]</parent-name>
             <remote-alias>Work schedule irregular</remote-alias>
             <ordinal>62</ordinal>
             <local-type>integer</local-type>
@@ -1039,7 +1039,7 @@
             <remote-name>Work schedule lack of control</remote-name>
             <remote-type>20</remote-type>
             <local-name>[Work schedule lack of control]</local-name>
-            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <parent-name>[TBACKGROUND#csv]</parent-name>
             <remote-alias>Work schedule lack of control</remote-alias>
             <ordinal>63</ordinal>
             <local-type>integer</local-type>
@@ -1054,7 +1054,7 @@
             <remote-name>Sleep loss</remote-name>
             <remote-type>20</remote-type>
             <local-name>[Sleep loss]</local-name>
-            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <parent-name>[TBACKGROUND#csv]</parent-name>
             <remote-alias>Sleep loss</remote-alias>
             <ordinal>64</ordinal>
             <local-type>integer</local-type>
@@ -1069,7 +1069,7 @@
             <remote-name>Sleep interruptions</remote-name>
             <remote-type>20</remote-type>
             <local-name>[Sleep interruptions]</local-name>
-            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <parent-name>[TBACKGROUND#csv]</parent-name>
             <remote-alias>Sleep interruptions</remote-alias>
             <ordinal>65</ordinal>
             <local-type>integer</local-type>
@@ -1084,7 +1084,7 @@
             <remote-name>Coord w/ other depts</remote-name>
             <remote-type>20</remote-type>
             <local-name>[Coord w/ other depts]</local-name>
-            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <parent-name>[TBACKGROUND#csv]</parent-name>
             <remote-alias>Coord w/ other depts</remote-alias>
             <ordinal>66</ordinal>
             <local-type>integer</local-type>
@@ -1099,7 +1099,7 @@
             <remote-name>Ambiguous rules</remote-name>
             <remote-type>20</remote-type>
             <local-name>[Ambiguous rules]</local-name>
-            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <parent-name>[TBACKGROUND#csv]</parent-name>
             <remote-alias>Ambiguous rules</remote-alias>
             <ordinal>67</ordinal>
             <local-type>integer</local-type>
@@ -1114,7 +1114,7 @@
             <remote-name>Mgmt policies</remote-name>
             <remote-type>20</remote-type>
             <local-name>[Mgmt policies]</local-name>
-            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <parent-name>[TBACKGROUND#csv]</parent-name>
             <remote-alias>Mgmt policies</remote-alias>
             <ordinal>68</ordinal>
             <local-type>integer</local-type>
@@ -1129,7 +1129,7 @@
             <remote-name>Job security</remote-name>
             <remote-type>20</remote-type>
             <local-name>[Job security]</local-name>
-            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <parent-name>[TBACKGROUND#csv]</parent-name>
             <remote-alias>Job security</remote-alias>
             <ordinal>69</ordinal>
             <local-type>integer</local-type>
@@ -1144,7 +1144,7 @@
             <remote-name>Communication</remote-name>
             <remote-type>20</remote-type>
             <local-name>[Communication]</local-name>
-            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <parent-name>[TBACKGROUND#csv]</parent-name>
             <remote-alias>Communication</remote-alias>
             <ordinal>70</ordinal>
             <local-type>integer</local-type>
@@ -1159,7 +1159,7 @@
             <remote-name>Inadequate staff</remote-name>
             <remote-type>20</remote-type>
             <local-name>[Inadequate staff]</local-name>
-            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <parent-name>[TBACKGROUND#csv]</parent-name>
             <remote-alias>Inadequate staff</remote-alias>
             <ordinal>71</ordinal>
             <local-type>integer</local-type>
@@ -1174,7 +1174,7 @@
             <remote-name>Responsible for others safety</remote-name>
             <remote-type>20</remote-type>
             <local-name>[Responsible for others safety]</local-name>
-            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <parent-name>[TBACKGROUND#csv]</parent-name>
             <remote-alias>Responsible for others safety</remote-alias>
             <ordinal>72</ordinal>
             <local-type>integer</local-type>
@@ -1189,7 +1189,7 @@
             <remote-name>Break time</remote-name>
             <remote-type>20</remote-type>
             <local-name>[Break time]</local-name>
-            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <parent-name>[TBACKGROUND#csv]</parent-name>
             <remote-alias>Break time</remote-alias>
             <ordinal>73</ordinal>
             <local-type>integer</local-type>
@@ -1204,7 +1204,7 @@
             <remote-name>Time off</remote-name>
             <remote-type>20</remote-type>
             <local-name>[Time off]</local-name>
-            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <parent-name>[TBACKGROUND#csv]</parent-name>
             <remote-alias>Time off</remote-alias>
             <ordinal>74</ordinal>
             <local-type>integer</local-type>
@@ -1219,7 +1219,7 @@
             <remote-name>Oversight new hires</remote-name>
             <remote-type>20</remote-type>
             <local-name>[Oversight new hires]</local-name>
-            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <parent-name>[TBACKGROUND#csv]</parent-name>
             <remote-alias>Oversight new hires</remote-alias>
             <ordinal>75</ordinal>
             <local-type>integer</local-type>
@@ -1234,7 +1234,7 @@
             <remote-name>Other</remote-name>
             <remote-type>20</remote-type>
             <local-name>[Other]</local-name>
-            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <parent-name>[TBACKGROUND#csv]</parent-name>
             <remote-alias>Other</remote-alias>
             <ordinal>76</ordinal>
             <local-type>integer</local-type>
@@ -1249,7 +1249,7 @@
             <remote-name>Life events</remote-name>
             <remote-type>20</remote-type>
             <local-name>[Life events]</local-name>
-            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <parent-name>[TBACKGROUND#csv]</parent-name>
             <remote-alias>Life events</remote-alias>
             <ordinal>77</ordinal>
             <local-type>integer</local-type>
@@ -1263,13 +1263,13 @@
           <metadata-record class='capability'>
             <remote-name></remote-name>
             <remote-type>0</remote-type>
-            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <parent-name>[TBACKGROUND#csv]</parent-name>
             <remote-alias></remote-alias>
             <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
             <attributes>
               <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
-              <attribute datatype='string' name='field-delimiter'>&quot;\\t&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
               <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
               <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
               <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
@@ -1305,6 +1305,8 @@
       </column>
       <column aggregation='Hour' datatype='datetime' name='[Sat Start Time]' role='dimension' type='ordinal'>
       </column>
+      <column datatype='integer' name='[Sleep apnea]' role='measure' type='quantitative'>
+      </column>
       <column aggregation='Hour' datatype='datetime' name='[Sun End Time]' role='dimension' type='ordinal'>
       </column>
       <column aggregation='Hour' datatype='datetime' name='[Sun Start Time]' role='dimension' type='ordinal'>
@@ -1321,15 +1323,28 @@
       </column>
       <column aggregation='Hour' datatype='datetime' name='[Wed Start Time]' role='dimension' type='ordinal'>
       </column>
+      <column-instance column='[Sleep apnea]' derivation='None' name='[none:Sleep apnea:ok]' pivot='key' type='ordinal' />
       <layout dim-ordering='alphabetic' dim-percentage='0.5' measure-ordering='alphabetic' measure-percentage='0.4' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Sleep apnea:ok]' type='palette'>
+            <map to='#cfcfcf'>
+              <bucket>%null%</bucket>
+            </map>
+            <map to='#ff7f0e'>
+              <bucket>1</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
       <semantic-values>
         <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
       </semantic-values>
     </datasource>
     <datasource caption='TSLEEPALERT' inline='true' name='Clipboard_20150419T135709' version='8.3'>
-      <connection class='textscan' directory='C:/Users/Andrea/Documents/My Tableau Repository/Datasources/Clipboard_20150419T135709'>
-        <relation name='Clipboard_20150419T135709#txt' table='[Clipboard_20150419T135709#txt]' type='table'>
-          <columns character-set='UTF-8' header='yes' locale='en_US' separator='&#9;'>
+      <connection class='textscan' directory='C:/cs329e/DataVisualization' filename='TSLEEPALERT.csv'>
+        <relation name='TSLEEPALERT#csv' table='[TSLEEPALERT#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
             <column datatype='integer' name='ID Number' ordinal='0' />
             <column datatype='date' name='Date' ordinal='1' />
             <column datatype='integer' name='Falling asleep' ordinal='2' />
@@ -1346,7 +1361,7 @@
             <remote-name>ID Number</remote-name>
             <remote-type>20</remote-type>
             <local-name>[ID Number]</local-name>
-            <parent-name>[Clipboard_20150419T135709#txt]</parent-name>
+            <parent-name>[TSLEEPALERT#csv]</parent-name>
             <remote-alias>ID Number</remote-alias>
             <ordinal>0</ordinal>
             <local-type>integer</local-type>
@@ -1361,7 +1376,7 @@
             <remote-name>Date</remote-name>
             <remote-type>133</remote-type>
             <local-name>[Date]</local-name>
-            <parent-name>[Clipboard_20150419T135709#txt]</parent-name>
+            <parent-name>[TSLEEPALERT#csv]</parent-name>
             <remote-alias>Date</remote-alias>
             <ordinal>1</ordinal>
             <local-type>date</local-type>
@@ -1376,7 +1391,7 @@
             <remote-name>Falling asleep</remote-name>
             <remote-type>20</remote-type>
             <local-name>[Falling asleep]</local-name>
-            <parent-name>[Clipboard_20150419T135709#txt]</parent-name>
+            <parent-name>[TSLEEPALERT#csv]</parent-name>
             <remote-alias>Falling asleep</remote-alias>
             <ordinal>2</ordinal>
             <local-type>integer</local-type>
@@ -1391,7 +1406,7 @@
             <remote-name>Waking up</remote-name>
             <remote-type>20</remote-type>
             <local-name>[Waking up]</local-name>
-            <parent-name>[Clipboard_20150419T135709#txt]</parent-name>
+            <parent-name>[TSLEEPALERT#csv]</parent-name>
             <remote-alias>Waking up</remote-alias>
             <ordinal>3</ordinal>
             <local-type>integer</local-type>
@@ -1406,7 +1421,7 @@
             <remote-name>Sleep length</remote-name>
             <remote-type>20</remote-type>
             <local-name>[Sleep length]</local-name>
-            <parent-name>[Clipboard_20150419T135709#txt]</parent-name>
+            <parent-name>[TSLEEPALERT#csv]</parent-name>
             <remote-alias>Sleep length</remote-alias>
             <ordinal>4</ordinal>
             <local-type>integer</local-type>
@@ -1421,7 +1436,7 @@
             <remote-name>Sleep quality</remote-name>
             <remote-type>20</remote-type>
             <local-name>[Sleep quality]</local-name>
-            <parent-name>[Clipboard_20150419T135709#txt]</parent-name>
+            <parent-name>[TSLEEPALERT#csv]</parent-name>
             <remote-alias>Sleep quality</remote-alias>
             <ordinal>5</ordinal>
             <local-type>integer</local-type>
@@ -1436,7 +1451,7 @@
             <remote-name>Alertness 1</remote-name>
             <remote-type>20</remote-type>
             <local-name>[Alertness 1]</local-name>
-            <parent-name>[Clipboard_20150419T135709#txt]</parent-name>
+            <parent-name>[TSLEEPALERT#csv]</parent-name>
             <remote-alias>Alertness 1</remote-alias>
             <ordinal>6</ordinal>
             <local-type>integer</local-type>
@@ -1451,7 +1466,7 @@
             <remote-name>Alertness 2</remote-name>
             <remote-type>20</remote-type>
             <local-name>[Alertness 2]</local-name>
-            <parent-name>[Clipboard_20150419T135709#txt]</parent-name>
+            <parent-name>[TSLEEPALERT#csv]</parent-name>
             <remote-alias>Alertness 2</remote-alias>
             <ordinal>7</ordinal>
             <local-type>integer</local-type>
@@ -1466,7 +1481,7 @@
             <remote-name>Alertness 3</remote-name>
             <remote-type>20</remote-type>
             <local-name>[Alertness 3]</local-name>
-            <parent-name>[Clipboard_20150419T135709#txt]</parent-name>
+            <parent-name>[TSLEEPALERT#csv]</parent-name>
             <remote-alias>Alertness 3</remote-alias>
             <ordinal>8</ordinal>
             <local-type>integer</local-type>
@@ -1480,13 +1495,13 @@
           <metadata-record class='capability'>
             <remote-name></remote-name>
             <remote-type>0</remote-type>
-            <parent-name>[Clipboard_20150419T135709#txt]</parent-name>
+            <parent-name>[TSLEEPALERT#csv]</parent-name>
             <remote-alias></remote-alias>
             <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
             <attributes>
               <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
-              <attribute datatype='string' name='field-delimiter'>&quot;\\t&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
               <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
               <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
               <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
@@ -1494,6 +1509,11 @@
           </metadata-record>
         </metadata-records>
       </connection>
+      <aliases enabled='yes' />
+      <column caption='Start Alertness' datatype='integer' name='[Alertness 2]' role='measure' type='quantitative'>
+      </column>
+      <column caption='End Alertness' datatype='integer' name='[Alertness 3]' role='measure' type='quantitative'>
+      </column>
       <column datatype='integer' name='[ID Number]' role='dimension' type='ordinal'>
       </column>
       <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
@@ -1506,7 +1526,7 @@
     </datasource>
   </datasources>
   <worksheets>
-    <worksheet name='Sheet 1'>
+    <worksheet name='QualityvsYears'>
       <table>
         <view>
           <datasources>
@@ -1516,16 +1536,25 @@
           <datasource-dependencies datasource='Clipboard_20150419T135618'>
             <column datatype='integer' name='[ID Number]' role='dimension' type='ordinal'>
             </column>
+            <column datatype='real' name='[Total years of service]' role='measure' type='quantitative'>
+            </column>
             <column-instance column='[ID Number]' derivation='None' name='[none:ID Number:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Total years of service]' derivation='Sum' name='[sum:Total years of service:qk]' pivot='key' type='quantitative' />
           </datasource-dependencies>
           <datasource-dependencies datasource='Clipboard_20150419T135709'>
-            <column datatype='integer' name='[Alertness 1]' role='measure' type='quantitative'>
+            <column datatype='integer' name='[Sleep quality]' role='measure' type='quantitative'>
             </column>
-            <column-instance column='[Alertness 1]' derivation='Sum' name='[sum:Alertness 1:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Sleep quality]' derivation='Avg' name='[avg:Sleep quality:qk]' pivot='key' type='quantitative' />
           </datasource-dependencies>
           <aggregation value='true' />
         </view>
         <style>
+          <style-rule element='cell'>
+            <format attr='width' value='151' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' center='3.0' field='[Clipboard_20150419T135709].[avg:Sleep quality:qk]' min='0.0' palette='area-red-green' symmetric='false' type='interpolated' />
+          </style-rule>
         </style>
         <panes>
           <pane>
@@ -1533,16 +1562,103 @@
               <breakdown value='auto' />
             </view>
             <mark class='Automatic' />
+            <encodings>
+              <color column='[Clipboard_20150419T135709].[avg:Sleep quality:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
           </pane>
         </panes>
-        <rows>[Clipboard_20150419T135709].[sum:Alertness 1:qk]</rows>
-        <cols>[Clipboard_20150419T135618].[none:ID Number:ok]</cols>
+        <rows>[Clipboard_20150419T135618].[none:ID Number:ok]</rows>
+        <cols>[Clipboard_20150419T135618].[sum:Total years of service:qk]</cols>
+      </table>
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='TSLEEPALERT' name='Clipboard_20150419T135709' />
+            <datasource caption='TBACKGROUND' name='Clipboard_20150419T135618' />
+          </datasources>
+          <datasource-dependencies datasource='Clipboard_20150419T135618'>
+            <column datatype='integer' name='[ID Number]' role='dimension' type='ordinal'>
+            </column>
+            <column-instance column='[ID Number]' derivation='None' name='[none:ID Number:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <datasource-dependencies datasource='Clipboard_20150419T135709'>
+            <column caption='Start Alertness' datatype='integer' name='[Alertness 2]' role='measure' type='quantitative'>
+            </column>
+            <column caption='End Alertness' datatype='integer' name='[Alertness 3]' role='measure' type='quantitative'>
+            </column>
+            <column-instance column='[Alertness 2]' derivation='Avg' name='[avg:Alertness 2:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Alertness 3]' derivation='Avg' name='[avg:Alertness 3:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+        </style>
+        <panes>
+          <pane id='4'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+          <pane id='5' x-axis-name='[Clipboard_20150419T135709].[avg:Alertness 2:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+          <pane id='6' x-axis-name='[Clipboard_20150419T135709].[avg:Alertness 3:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[Clipboard_20150419T135618].[none:ID Number:ok]</rows>
+        <cols>([Clipboard_20150419T135709].[avg:Alertness 2:qk] + [Clipboard_20150419T135709].[avg:Alertness 3:qk])</cols>
       </table>
     </worksheet>
   </worksheets>
   <windows>
     <window class='schema' source-height='-1' />
-    <window auto-hidden='0' class='worksheet' maximized='1' name='Sheet 1'>
+    <window auto-hidden='0' class='worksheet' maximized='0' name='QualityvsYears'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card pane-specification-id='0' param='[Clipboard_20150419T135709].[avg:Sleep quality:qk]' type='color' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='31'>
+            <card type='columns' />
+          </strip>
+          <strip size='31'>
+            <card type='rows' />
+          </strip>
+        </edge>
+      </cards>
+      <highlight>
+        <color-one-way>
+          <field>[Clipboard_20150419T135618].[none:ID Number:ok]</field>
+          <field>[Clipboard_20150419T135709].[avg:Sleep quality:qk]</field>
+        </color-one-way>
+      </highlight>
+    </window>
+    <window auto-hidden='0' class='worksheet' maximized='1' name='Sheet 2'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -1563,106 +1679,215 @@
       <highlight>
         <color-one-way>
           <field>[Clipboard_20150419T135618].[none:ID Number:ok]</field>
+          <field>[Clipboard_20150419T135618].[none:Sleep apnea:qk]</field>
+          <field>[Clipboard_20150419T135618].[sum:Diagnosed sleep disorder:qk]</field>
+          <field>[Clipboard_20150419T135709].[none:ID Number:ok]</field>
         </color-one-way>
       </highlight>
     </window>
   </windows>
   <thumbnails>
-    <thumbnail height='192' name='Sheet 1' width='192'>
+    <thumbnail height='192' name='QualityvsYears' width='192'>
       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
-      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
+      AAARV0lEQVR4nO3d2W9c93XA8e+9dzYOh0NyuImkKNmiREvyIqt26g02sqfpQx2jKFCjD+1D
+      /4e+5qFPLfrSooEdZEHTOo4DpA3iNoss2ZYUUYst2aJJWRIpcRkO1+Hs+9364CZBW9Sdofy7
+      +cU8nyeB4OUZCHPu/Z1zf4vh+76PEHuU+dv+AEL8NkkCiD1NEkDsaZIAYk+TBBB7miSA2NMk
+      AcSeFvrVP5rNJq1WS2kw3/cxDENpDCE6YQT1IqzVajGz9RaupTbJhOhE6P//ld0rbq4wfX2R
+      z3/xOQzgRu4CNT+vMqQQHVFaAySHJ4i2dig1XJVhhNg1pQmQW1ui4pj4nkw3EnpSOgQaGL+f
+      Pxq/H0B5gS3EbgRaBDedOpFIOIhwQrRF6RPgf2rVd/AcaYMKfShOAJ+Z6zM8+PAjAOQKNzEM
+      GQoJfSgtgrOr8/z07Yt4suZGaEppArh+iMG4SaEqd32hp0CL4OX0aRkCCa0EmgCtVplwONC6
+      W4iPFei3cbmYBkvqAaEPpQnQrOSZnU/zyImHAXjtvW+Tb2VVhhSiI0qL4I27N5m+eIl8w1MZ
+      RohdU5oATduhtztCvSmT4YSelA6Bjpx8mvFjjxPvCmPbtspQQuxKoF2g+e0b+KYMh4Q+Au0C
+      9XensMKyDFnoQ1kCFHayxLrjrK5lmbx/AoAfzv0DZTenKqQQHVNyO3bLW3zru6+wU6py7eIF
+      yq70/oWelCSA1TPMEw8dwrFtUskQO0UpgIWelA2BTj79HJFYlNDjzzGWikgXSGgp0C7Q7NZl
+      PNMJIpwQbQk0AWy3IUsihVaUDYHq1Qo+PsVShdTgCAZwdu2btIySqpBCdExNF6ia5aWXvk3J
+      9nj79Ckarrz8EnpSkgBmVz8njx8iTJPEyGGSMVkDIPSkJAEM0+Lhx36f7miCpz7zMLIPhNBV
+      oEXwQmEaQtIOFfoINAF83ycajQYRToi2KBuce66LYRo4rkfIsgD4x0tfp2jLXCChDyUJ4NXz
+      fOPlf+GJJ09y4/YiX37hRQai0HKbtNyGipBC7IqaIjjczQOHD9A/NELIqVKuy9tfoSclTwAj
+      FOHBR04QT/Zw9PeeZXIwiutI8Sv0E2gR/LNbr9Hwa0GEE6It0gUSe1qgr2gvbbyCY1aDDCnE
+      x1KSAE49z6mfv0Fi3yFW5u/wtT/7EyJA1cnJZDihFTUrwiLdVMslxu87xIHhMIWydIGEnpQk
+      QLO8Q9fQQahkITHKQEImwwk9BVoEX936EY5ZDyKcEG2RLpDY0wIdm7y5/H1ahnSBhD6UdYFO
+      v/E2/fvGyBVtPvu5p7GA9coCVT+vIqQQu6KmCxTrxW2UaDZtyrkMO2WZBiH0pOQJ0CysUTb7
+      ODzQR6PRJNEVAmSLdKGfQIvgH9/+e+p+MYhwQrRFukBiTwu0C3Q9ewrPlAUxQh+KukAFTr1x
+      nkeeeJIbH8zxxS98FoCV8gwNCipCCrErSrpAoa4+JscS3F3OsLGdRTZHF7pS8gRoVbIsb9eY
+      PPEoYacm+wIJbQVaBL9+9+9kCCS0Il0gsacF2wXaOodntoIMKcTHUpIAbqPE2+cuc+jIIe7c
+      TfPks88RAd7bfIuqJxtjCX2o2R06mmCkx6Dsd1PbXKTclO3RhZ6UJIBdzbGarbBx+yrpeoSe
+      iJwNLPQUaBH83ZmvyxBIaCXQBKjZZUJhWR8s9BHot9Fu5fE8eS0m9KFmd2i7xpUr73P46BTz
+      84ucfPxxTGA9/z7IZDihETVPACOE1Spw+vQZCHdx1PbotpREEuKeKGnPOI0S28UKsWg3djVH
+      SbZHF5oKtAi+ufoTGQIJrQSaAPVmnnBExkJCH4F2gfKtPKa8FBYaUZQAPtnNNaxIF+m1bR46
+      PgXALxa/Jy/ChFbUFMHNMj967Qes7dS5O3udkiO3faEnJQlQyefo7kmyublBKORRrMieQEJP
+      yopgu9XENwzq9SbJngS2bctcIKGdQLtAS4U5CMkSeaGPQBPAadWJRMJBhBOiLcraoJVinlA8
+      SbVUoD+VAqC4NoNlyFthoQ8lRbDnNvjB977D4soKL3/3FVxPhj1CT0oSoLC+gtmVYG7uNj1d
+      FoWqLIQXelJWA9QqRcxogka1RG9vH7Zts7N0WYZAQivBzgUqrhMOyfpgoY9AE8DzXCKRSBDh
+      hGiLsi5Qq1HHCIWpVqr09iYBSGfewjCkHhD6UJIAvmfz2j99k9HJB9nYKfP8C88jGyIKHSkZ
+      kOczC1Qck/X1LWJGjfWC3PWFnpTVAMWdLQjHWFnJcOz4UTzHZjl9WoZAQiuBFsG5/G1CMhdI
+      aES2Rxd7mrIuUCG7iRGJkVnPcmzqEADfuPTXlByZDi30oWZ79FaF177/z4wfPEqtlic8MM7B
+      pEnNrlC1yypCCrErSrpA5ewWXYkk8dQg9VqTrrDsBCH0pKwGaDZqYJhUqg1S/b3Yts3fnvsr
+      ivaOinBC7EqgRfDc5jU8UybDCX0EmgCVZpFQRLZHF/pQMxXC98isrNA7MESlUmXfyBAA35v5
+      G8qudIGEPpQUwW5tk/84dYEbVy9x4fxbZMqyLYrQk5ozwho2RyYHeG92ibBl4srLX6EpJUOg
+      WP8oByaaPPnUc2xs7nAgaWHbsjuc0E+gRfDVtbdx5aBsoRGZCyT2NEVdIJ9atUIkFsf3XMLh
+      j5ZBrqZlRZjQi5p9gRrbvPrqj0kv3eal77yKjP6FrtR0gWoNxif6SOdM7htPqQghxCdCyRAo
+      khxmdHg/k8cPUczGMQF5EyB0FOyKsNxNLEteCgh9SBdI7GmBzkxLb5zDMO0gQwrxsdSsCGvu
+      8Oprb/D0Uyc5d/5d/vjPXyQKOE4Dw2yqCCnErqg5JK9aI95jsVrwmRzrIl+SNQBCT0oSwIr3
+      Mjo8zsRgFLNvgpEeORVG6CnQInhj+yqmJQ1RoQ/pAok9LdAuUGnjBiFT3gMIfSjaF6jI66+f
+      5ejUBLdXt/n8F75IBHCaFXw5IUZoRNGSyAqO3+DCxWuUctvkq9L7F3pSMwQKRenvG+DhRx4l
+      nV6lNx4G5M4v9BNoEVxYm8EyZHK00Id0gcSeFmgX6MLqv2Ib9SBDCvGxlCSA51Q49fPzPHB8
+      ivevXuWZr75AXwSWirNU/byKkELsipq5QJU8uUqZqmNixnoZ6pbtEIWe1JxaHepiqD9JyGux
+      /9BhDMNQEkaIe6VmSWRikC995Q/+18/DVoyI36UipBC7Il0gsacFOjjfLn2IZcl7AKEPNV0g
+      t87ZNy8wcWCMxdUdnv3sM5hArrwAZkNFSCF2RU0XqLjJ8maWpaU0a4vXubMpX3qhJzVdoEiC
+      0YEE3ckUqeH72T8QUxJGiHsVaBF8c/UnMgQSWgk0AVzPJhKJBBFOiLYE2gXaqN3CbEkXSOhD
+      0VygBu9cfofh8f2k0xt85sknsIA7hQvYppwUL/ShpAguLM8yt7RJy+iilLlJri53faEnJQkQ
+      7x8mbtncfm+aWzs+yaiaZpMQ9yrQIvjc6ssyBBJaCTQBqnaOUNgKIpwQbQm0CxTfLBGRmdFC
+      I2oOyfMcZmdmGBnfz2pmmxMnjn/087O/gJoMgYQ+1HSBVj7gyuwdssUmq/NzlOSQbKEpJQkQ
+      ifcQM1ssLy7h+Q7lqmyIK/SkpAj2fZ9ms0E4HKFlO8SiEWzbxnvlZaIyBBIaCXZF2NoKEVkf
+      LDQSaBco3x/GCstLMaEPNV0g32PpzgKD+0ZZvrvM4eMPYgI/W/wWNdkXSGhESQKU0rOcmf6Q
+      4weXSZcjTD2oIooQ907JeMQMheiJm2SyLZLuJss7sghG6EnJEyAxepTPPZsi2dtLvlBmZCiG
+      Y8sZAUI/gXaBFvLX8OWQPKGRYNugrSaRsByZKvShqAvkk8tu09PbR6FQYnBoAIDW2X+HlmyP
+      LvShJAGqG7f4t1PXuH8sxVquztdeeB7ZEFHoSM0heXaTnkSM+dtp4ladtXxLRRgh7pmSJ0By
+      4iEeq0cZ/eoB0uk1Dg9HcaULJDQUaBHsLMwRQQ7KFvqQ7dHFnqasC2TbLUKhEI7jEQ5/FCa3
+      8i6WnBQv2jA0+SyGoX7ipJIEqGcX+eHPLrF/pJ+1zSxfeuFFBqKA7wGyOkzoQ0mKNSsFzLBF
+      zQ5hOVXKdbnrCz0peQL0HXiIR/M+I+PjZDbGmRySLpDQU6BFcCV7h5CshxFt6Bk5GsjpotIF
+      EntaoEsiGx+cx3FlKCR2L3LwGOF9931if09JAjQrOX76+k8YmXqU2ZkP+cu/eBEAr17Fd5sq
+      Qoo9wnc+2Ruomn2Buvuw4ilOHjvCcKpb3v0KbakpSX2fqaMP0BXv5tgDU8hGKEJXgRbBjQ+v
+      EPblnYDYvfD4YUJD+z+xvyddILGnBdoFem/7x7iWrAgTnRmIHeRo/+eU/G1lXaAzb7xB79hh
+      tjNLPPOVr9EbhlwzTcsoqQgpPsVChrpRg7IukGd28diJo5RyOUJyKIzQlLIu0PjBA+Qzd+gd
+      u5+wbIgrNKVkCGSYFicffRSA5yc/+lmrBfFQH2Ej0LJDfArEQj3K/rZ0gcSepqwIvnT5HZJD
+      oxTyVZ585qOT4v1r03gyF+hTy5g8jjH6yfXog6AkAaKJfoaHhkn2xijVIWIZuB7UegexO5wY
+      4fkevudjWZ1V0rZtE97FLnRy3T1cZ5hQ/u8nAAX5OR3HwbKsjqZRaz8Esm0bx3Ho6urq6Lpy
+      uUxPT+djR7nud/e6Wq1GNBrt6GYZWAL8Kkynixx838f3fUyzs4aV53kdXyPX/W5f53kehmF0
+      9B0LbH2WYRg0y9ucOf02VafNnPN9blx/l6sf3Oo4Xm51gYVMh6fR+B7X37nInZWNji6rFzd5
+      6/Sb5Ovt73zt+y7XrkxTyG1x5sx5am3+n/i+z+y1S2QyGc6ffYvtSns1lee2uHDxCgYe71y+
+      2vbWBJ7bZPriFfIby5y/dBXbbfNzui0uXLzMTuYOb567RLPN6+7emuWXl6+ycON93p+bb/dD
+      MnPtCu9/MMuVS9N8eDfT1mVusxRcAgBsLq0ymDJZWK+0d4FhcGTqAei0cHbrvHvtGtvZYmfX
+      NbaZXy1QrXc2XaNeKpDPZynW2v+cvudRKeRZur3C4IDB0la1zQt9aqUc4eQIY6kETptfLNe2
+      KZYKLH44w8JyBrfNB7/TciiWCszfWqDZbLR/ne1QLBQoZLPs5HdoOe2l3MFDRwjjsZmrkd9e
+      besaTIupqSN4WBw7chC7zfXnVqQn2AQYGB1kNVNhYqi7rd/3fZ9L0+eJdHc6hjQ5NDlJONTh
+      C7hoH2OpLuxWZwlnWBH6+vswO9jyxbTCDAwOMjoxzGqmythAvL1YpsnA0DCljbvcWi/R1WYb
+      IxyLM9jfS2rfOEN9Cdod+Ea6uhno62X//rFf13Ftx0v1EY7FSSa6oc3mx8w70zjhOMkug1hi
+      oK1rfM9h+sI0sYjJ2en36E0m2rrOruWCqwGE0JHs0SAC5tNs1KnVanj/de91XRefj574jtvZ
+      CUKO3cJx/+8nr+s4H/vskXkJImA+GwvXuXi3zNMnjlCu29y8Mcdjjxyl1nQptGByNIXheTSc
+      JtWmRW/EptAAu1nF8j16hidIRR3mV/Msz13mqT/8U8qZW0SSw5Sya6QGhshs7nDovjHmb6ww
+      uD8JZhy7tM3A/ilGUr8ZIkkCiICZHLzvICtujaWlRcI+RBMJ1tdXyWwUGDt8jJhb5s25TUKV
+      DOGeEfq6LVYzW/QMjpDwa+zUIeeUqZkm1sAEIz0h7myuU759m6xtMbycpu/IcX555hyJvgFy
+      6QYPDUe5eCPNlBNjJHX8159GagARPLvGRskh4pTYqnjELJdWvYoZTdCT7KXbrDJzt8SR0Tj5
+      ZoiIW6JldtEdj+NUc5g9IwzEPBYyOYZSSfaNjLBy5yZm9wDFrQyDw/sIJfqoF7LEwxFqdhWb
+      GK3CFoMHphjs/U3D4T8Bq8iaB4wHI3sAAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 2' width='192'>
+      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
       gg==
     </thumbnail>
   </thumbnails>
