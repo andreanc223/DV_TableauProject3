@@ -1,0 +1,1669 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<workbook source-platform='win' version='8.3' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <!-- build 8300.15.0308.1149                                -->
+  <preferences>
+  </preferences>
+  <datasources>
+    <datasource caption='TBACKGROUND' inline='true' name='Clipboard_20150419T135618' version='8.3'>
+      <connection class='textscan' directory='C:/Users/Andrea/Documents/My Tableau Repository/Datasources/Clipboard_20150419T135618'>
+        <relation name='Clipboard_20150419T135618#txt' table='[Clipboard_20150419T135618#txt]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator='&#9;'>
+            <column datatype='integer' name='ID Number' ordinal='0' />
+            <column datatype='integer' name='Age' ordinal='1' />
+            <column datatype='real' name='Total years of service' ordinal='2' />
+            <column datatype='real' name='Years in present job' ordinal='3' />
+            <column datatype='integer' name='Yard ops' ordinal='4' />
+            <column datatype='integer' name='Local frt' ordinal='5' />
+            <column datatype='integer' name='Road frt' ordinal='6' />
+            <column datatype='integer' name='Pass/comm ops' ordinal='7' />
+            <column datatype='integer' name='Other work' ordinal='8' />
+            <column datatype='integer' name='Conductor' ordinal='9' />
+            <column datatype='integer' name='RCL operator' ordinal='10' />
+            <column datatype='integer' name='Brakeman' ordinal='11' />
+            <column datatype='integer' name='Trainman' ordinal='12' />
+            <column datatype='integer' name='Trainee' ordinal='13' />
+            <column datatype='integer' name='Locomotive eng' ordinal='14' />
+            <column datatype='integer' name='Hostler' ordinal='15' />
+            <column datatype='integer' name='Yard foreman' ordinal='16' />
+            <column datatype='integer' name='Switchman' ordinal='17' />
+            <column datatype='integer' name='Other position' ordinal='18' />
+            <column datatype='integer' name='Marital status' ordinal='19' />
+            <column datatype='integer' name='Children/ dependents' ordinal='20' />
+            <column datatype='integer' name='Children under 2yrs' ordinal='21' />
+            <column datatype='integer' name='Caffeine' ordinal='22' />
+            <column datatype='integer' name='Daily caffeine amt' ordinal='23' />
+            <column datatype='integer' name='Sick days' ordinal='24' />
+            <column datatype='integer' name='Health status' ordinal='25' />
+            <column datatype='integer' name='Perceived age' ordinal='26' />
+            <column datatype='integer' name='Videotape' ordinal='27' />
+            <column datatype='integer' name='Brochure' ordinal='28' />
+            <column datatype='integer' name='Briefing' ordinal='29' />
+            <column datatype='integer' name='None' ordinal='30' />
+            <column datatype='integer' name='Other matls' ordinal='31' />
+            <column datatype='integer' name='Diagnosed sleep disorder' ordinal='32' />
+            <column datatype='integer' name='Sleep apnea' ordinal='33' />
+            <column datatype='integer' name='Medical treatment' ordinal='34' />
+            <column datatype='integer' name='Sleep arrangements' ordinal='35' />
+            <column datatype='integer' name='Company provisions' ordinal='36' />
+            <column datatype='integer' name='Schedule' ordinal='37' />
+            <column datatype='datetime' name='Sun Start Time' ordinal='38' />
+            <column datatype='datetime' name='Sun End Time' ordinal='39' />
+            <column datatype='datetime' name='Mon Start Time' ordinal='40' />
+            <column datatype='datetime' name='Mon End Time' ordinal='41' />
+            <column datatype='datetime' name='Tues Start Time' ordinal='42' />
+            <column datatype='datetime' name='Tues End Time' ordinal='43' />
+            <column datatype='datetime' name='Wed Start Time' ordinal='44' />
+            <column datatype='datetime' name='Wed End Time' ordinal='45' />
+            <column datatype='datetime' name='Thu Start Time' ordinal='46' />
+            <column datatype='datetime' name='Thu End Time' ordinal='47' />
+            <column datatype='datetime' name='Fri Start Time' ordinal='48' />
+            <column datatype='datetime' name='Fri End Time' ordinal='49' />
+            <column datatype='datetime' name='Sat Start Time' ordinal='50' />
+            <column datatype='datetime' name='Sat End Time' ordinal='51' />
+            <column datatype='datetime' name='Home call time' ordinal='52' />
+            <column datatype='datetime' name='Away call time' ordinal='53' />
+            <column datatype='integer' name='24 h call window' ordinal='54' />
+            <column datatype='datetime' name='Call window from' ordinal='55' />
+            <column datatype='datetime' name='Call window to' ordinal='56' />
+            <column datatype='integer' name='Check lineup' ordinal='57' />
+            <column datatype='integer' name='Avg work hrs per week' ordinal='58' />
+            <column datatype='integer' name='Rest days' ordinal='59' />
+            <column datatype='integer' name='Other assignment' ordinal='60' />
+            <column datatype='integer' name='Alertness during work' ordinal='61' />
+            <column datatype='integer' name='Work schedule irregular' ordinal='62' />
+            <column datatype='integer' name='Work schedule lack of control' ordinal='63' />
+            <column datatype='integer' name='Sleep loss' ordinal='64' />
+            <column datatype='integer' name='Sleep interruptions' ordinal='65' />
+            <column datatype='integer' name='Coord w/ other depts' ordinal='66' />
+            <column datatype='integer' name='Ambiguous rules' ordinal='67' />
+            <column datatype='integer' name='Mgmt policies' ordinal='68' />
+            <column datatype='integer' name='Job security' ordinal='69' />
+            <column datatype='integer' name='Communication' ordinal='70' />
+            <column datatype='integer' name='Inadequate staff' ordinal='71' />
+            <column datatype='integer' name='Responsible for others safety' ordinal='72' />
+            <column datatype='integer' name='Break time' ordinal='73' />
+            <column datatype='integer' name='Time off' ordinal='74' />
+            <column datatype='integer' name='Oversight new hires' ordinal='75' />
+            <column datatype='integer' name='Other' ordinal='76' />
+            <column datatype='integer' name='Life events' ordinal='77' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>ID Number</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ID Number]</local-name>
+            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <remote-alias>ID Number</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Age</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Age]</local-name>
+            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <remote-alias>Age</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total years of service</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Total years of service]</local-name>
+            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <remote-alias>Total years of service</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;double&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Years in present job</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Years in present job]</local-name>
+            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <remote-alias>Years in present job</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;double&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Yard ops</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Yard ops]</local-name>
+            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <remote-alias>Yard ops</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Local frt</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Local frt]</local-name>
+            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <remote-alias>Local frt</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Road frt</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Road frt]</local-name>
+            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <remote-alias>Road frt</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pass/comm ops</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Pass/comm ops]</local-name>
+            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <remote-alias>Pass/comm ops</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Other work</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Other work]</local-name>
+            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <remote-alias>Other work</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Conductor</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Conductor]</local-name>
+            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <remote-alias>Conductor</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RCL operator</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[RCL operator]</local-name>
+            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <remote-alias>RCL operator</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Brakeman</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Brakeman]</local-name>
+            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <remote-alias>Brakeman</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Trainman</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Trainman]</local-name>
+            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <remote-alias>Trainman</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Trainee</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Trainee]</local-name>
+            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <remote-alias>Trainee</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Locomotive eng</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Locomotive eng]</local-name>
+            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <remote-alias>Locomotive eng</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Hostler</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Hostler]</local-name>
+            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <remote-alias>Hostler</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Yard foreman</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Yard foreman]</local-name>
+            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <remote-alias>Yard foreman</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Switchman</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Switchman]</local-name>
+            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <remote-alias>Switchman</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Other position</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Other position]</local-name>
+            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <remote-alias>Other position</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Marital status</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Marital status]</local-name>
+            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <remote-alias>Marital status</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Children/ dependents</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Children/ dependents]</local-name>
+            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <remote-alias>Children/ dependents</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Children under 2yrs</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Children under 2yrs]</local-name>
+            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <remote-alias>Children under 2yrs</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Caffeine</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Caffeine]</local-name>
+            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <remote-alias>Caffeine</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Daily caffeine amt</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Daily caffeine amt]</local-name>
+            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <remote-alias>Daily caffeine amt</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sick days</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Sick days]</local-name>
+            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <remote-alias>Sick days</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Health status</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Health status]</local-name>
+            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <remote-alias>Health status</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Perceived age</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Perceived age]</local-name>
+            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <remote-alias>Perceived age</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Videotape</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Videotape]</local-name>
+            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <remote-alias>Videotape</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Brochure</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Brochure]</local-name>
+            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <remote-alias>Brochure</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Briefing</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Briefing]</local-name>
+            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <remote-alias>Briefing</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>None</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[None]</local-name>
+            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <remote-alias>None</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Other matls</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Other matls]</local-name>
+            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <remote-alias>Other matls</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Diagnosed sleep disorder</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Diagnosed sleep disorder]</local-name>
+            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <remote-alias>Diagnosed sleep disorder</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sleep apnea</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Sleep apnea]</local-name>
+            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <remote-alias>Sleep apnea</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Medical treatment</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Medical treatment]</local-name>
+            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <remote-alias>Medical treatment</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sleep arrangements</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Sleep arrangements]</local-name>
+            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <remote-alias>Sleep arrangements</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Company provisions</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Company provisions]</local-name>
+            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <remote-alias>Company provisions</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Schedule</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Schedule]</local-name>
+            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <remote-alias>Schedule</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sun Start Time</remote-name>
+            <remote-type>134</remote-type>
+            <local-name>[Sun Start Time]</local-name>
+            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <remote-alias>Sun Start Time</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Hour</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;duration&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sun End Time</remote-name>
+            <remote-type>134</remote-type>
+            <local-name>[Sun End Time]</local-name>
+            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <remote-alias>Sun End Time</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Hour</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;duration&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Mon Start Time</remote-name>
+            <remote-type>134</remote-type>
+            <local-name>[Mon Start Time]</local-name>
+            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <remote-alias>Mon Start Time</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Hour</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;duration&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Mon End Time</remote-name>
+            <remote-type>134</remote-type>
+            <local-name>[Mon End Time]</local-name>
+            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <remote-alias>Mon End Time</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Hour</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;duration&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Tues Start Time</remote-name>
+            <remote-type>134</remote-type>
+            <local-name>[Tues Start Time]</local-name>
+            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <remote-alias>Tues Start Time</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Hour</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;duration&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Tues End Time</remote-name>
+            <remote-type>134</remote-type>
+            <local-name>[Tues End Time]</local-name>
+            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <remote-alias>Tues End Time</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Hour</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;duration&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Wed Start Time</remote-name>
+            <remote-type>134</remote-type>
+            <local-name>[Wed Start Time]</local-name>
+            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <remote-alias>Wed Start Time</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Hour</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;duration&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Wed End Time</remote-name>
+            <remote-type>134</remote-type>
+            <local-name>[Wed End Time]</local-name>
+            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <remote-alias>Wed End Time</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Hour</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;duration&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Thu Start Time</remote-name>
+            <remote-type>134</remote-type>
+            <local-name>[Thu Start Time]</local-name>
+            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <remote-alias>Thu Start Time</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Hour</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;duration&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Thu End Time</remote-name>
+            <remote-type>134</remote-type>
+            <local-name>[Thu End Time]</local-name>
+            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <remote-alias>Thu End Time</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Hour</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;duration&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Fri Start Time</remote-name>
+            <remote-type>134</remote-type>
+            <local-name>[Fri Start Time]</local-name>
+            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <remote-alias>Fri Start Time</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Hour</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;duration&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Fri End Time</remote-name>
+            <remote-type>134</remote-type>
+            <local-name>[Fri End Time]</local-name>
+            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <remote-alias>Fri End Time</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Hour</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;duration&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sat Start Time</remote-name>
+            <remote-type>134</remote-type>
+            <local-name>[Sat Start Time]</local-name>
+            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <remote-alias>Sat Start Time</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Hour</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;duration&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sat End Time</remote-name>
+            <remote-type>134</remote-type>
+            <local-name>[Sat End Time]</local-name>
+            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <remote-alias>Sat End Time</remote-alias>
+            <ordinal>51</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Hour</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;duration&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Home call time</remote-name>
+            <remote-type>134</remote-type>
+            <local-name>[Home call time]</local-name>
+            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <remote-alias>Home call time</remote-alias>
+            <ordinal>52</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Hour</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;duration&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Away call time</remote-name>
+            <remote-type>134</remote-type>
+            <local-name>[Away call time]</local-name>
+            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <remote-alias>Away call time</remote-alias>
+            <ordinal>53</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Hour</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;duration&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>24 h call window</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[24 h call window]</local-name>
+            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <remote-alias>24 h call window</remote-alias>
+            <ordinal>54</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Call window from</remote-name>
+            <remote-type>134</remote-type>
+            <local-name>[Call window from]</local-name>
+            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <remote-alias>Call window from</remote-alias>
+            <ordinal>55</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Hour</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;duration&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Call window to</remote-name>
+            <remote-type>134</remote-type>
+            <local-name>[Call window to]</local-name>
+            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <remote-alias>Call window to</remote-alias>
+            <ordinal>56</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Hour</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;duration&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Check lineup</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Check lineup]</local-name>
+            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <remote-alias>Check lineup</remote-alias>
+            <ordinal>57</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Avg work hrs per week</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Avg work hrs per week]</local-name>
+            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <remote-alias>Avg work hrs per week</remote-alias>
+            <ordinal>58</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Rest days</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Rest days]</local-name>
+            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <remote-alias>Rest days</remote-alias>
+            <ordinal>59</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Other assignment</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Other assignment]</local-name>
+            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <remote-alias>Other assignment</remote-alias>
+            <ordinal>60</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Alertness during work</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Alertness during work]</local-name>
+            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <remote-alias>Alertness during work</remote-alias>
+            <ordinal>61</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Work schedule irregular</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Work schedule irregular]</local-name>
+            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <remote-alias>Work schedule irregular</remote-alias>
+            <ordinal>62</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Work schedule lack of control</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Work schedule lack of control]</local-name>
+            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <remote-alias>Work schedule lack of control</remote-alias>
+            <ordinal>63</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sleep loss</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Sleep loss]</local-name>
+            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <remote-alias>Sleep loss</remote-alias>
+            <ordinal>64</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sleep interruptions</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Sleep interruptions]</local-name>
+            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <remote-alias>Sleep interruptions</remote-alias>
+            <ordinal>65</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Coord w/ other depts</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Coord w/ other depts]</local-name>
+            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <remote-alias>Coord w/ other depts</remote-alias>
+            <ordinal>66</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Ambiguous rules</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Ambiguous rules]</local-name>
+            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <remote-alias>Ambiguous rules</remote-alias>
+            <ordinal>67</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Mgmt policies</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Mgmt policies]</local-name>
+            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <remote-alias>Mgmt policies</remote-alias>
+            <ordinal>68</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Job security</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Job security]</local-name>
+            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <remote-alias>Job security</remote-alias>
+            <ordinal>69</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Communication</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Communication]</local-name>
+            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <remote-alias>Communication</remote-alias>
+            <ordinal>70</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Inadequate staff</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Inadequate staff]</local-name>
+            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <remote-alias>Inadequate staff</remote-alias>
+            <ordinal>71</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Responsible for others safety</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Responsible for others safety]</local-name>
+            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <remote-alias>Responsible for others safety</remote-alias>
+            <ordinal>72</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Break time</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Break time]</local-name>
+            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <remote-alias>Break time</remote-alias>
+            <ordinal>73</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Time off</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Time off]</local-name>
+            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <remote-alias>Time off</remote-alias>
+            <ordinal>74</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Oversight new hires</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Oversight new hires]</local-name>
+            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <remote-alias>Oversight new hires</remote-alias>
+            <ordinal>75</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Other</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Other]</local-name>
+            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <remote-alias>Other</remote-alias>
+            <ordinal>76</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Life events</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Life events]</local-name>
+            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <remote-alias>Life events</remote-alias>
+            <ordinal>77</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name></remote-name>
+            <remote-type>0</remote-type>
+            <parent-name>[Clipboard_20150419T135618#txt]</parent-name>
+            <remote-alias></remote-alias>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;\\t&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='24 H Call Window' datatype='integer' name='[24 h call window]' role='measure' type='quantitative'>
+      </column>
+      <column aggregation='Hour' datatype='datetime' name='[Away call time]' role='dimension' type='ordinal'>
+      </column>
+      <column aggregation='Hour' datatype='datetime' name='[Call window from]' role='dimension' type='ordinal'>
+      </column>
+      <column aggregation='Hour' datatype='datetime' name='[Call window to]' role='dimension' type='ordinal'>
+      </column>
+      <column aggregation='Hour' datatype='datetime' name='[Fri End Time]' role='dimension' type='ordinal'>
+      </column>
+      <column aggregation='Hour' datatype='datetime' name='[Fri Start Time]' role='dimension' type='ordinal'>
+      </column>
+      <column aggregation='Hour' datatype='datetime' name='[Home call time]' role='dimension' type='ordinal'>
+      </column>
+      <column datatype='integer' name='[ID Number]' role='dimension' type='ordinal'>
+      </column>
+      <column aggregation='Hour' datatype='datetime' name='[Mon End Time]' role='dimension' type='ordinal'>
+      </column>
+      <column aggregation='Hour' datatype='datetime' name='[Mon Start Time]' role='dimension' type='ordinal'>
+      </column>
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column aggregation='Hour' datatype='datetime' name='[Sat End Time]' role='dimension' type='ordinal'>
+      </column>
+      <column aggregation='Hour' datatype='datetime' name='[Sat Start Time]' role='dimension' type='ordinal'>
+      </column>
+      <column aggregation='Hour' datatype='datetime' name='[Sun End Time]' role='dimension' type='ordinal'>
+      </column>
+      <column aggregation='Hour' datatype='datetime' name='[Sun Start Time]' role='dimension' type='ordinal'>
+      </column>
+      <column aggregation='Hour' datatype='datetime' name='[Thu End Time]' role='dimension' type='ordinal'>
+      </column>
+      <column aggregation='Hour' datatype='datetime' name='[Thu Start Time]' role='dimension' type='ordinal'>
+      </column>
+      <column aggregation='Hour' datatype='datetime' name='[Tues End Time]' role='dimension' type='ordinal'>
+      </column>
+      <column aggregation='Hour' datatype='datetime' name='[Tues Start Time]' role='dimension' type='ordinal'>
+      </column>
+      <column aggregation='Hour' datatype='datetime' name='[Wed End Time]' role='dimension' type='ordinal'>
+      </column>
+      <column aggregation='Hour' datatype='datetime' name='[Wed Start Time]' role='dimension' type='ordinal'>
+      </column>
+      <layout dim-ordering='alphabetic' dim-percentage='0.5' measure-ordering='alphabetic' measure-percentage='0.4' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
+    <datasource caption='TSLEEPALERT' inline='true' name='Clipboard_20150419T135709' version='8.3'>
+      <connection class='textscan' directory='C:/Users/Andrea/Documents/My Tableau Repository/Datasources/Clipboard_20150419T135709'>
+        <relation name='Clipboard_20150419T135709#txt' table='[Clipboard_20150419T135709#txt]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator='&#9;'>
+            <column datatype='integer' name='ID Number' ordinal='0' />
+            <column datatype='date' name='Date' ordinal='1' />
+            <column datatype='integer' name='Falling asleep' ordinal='2' />
+            <column datatype='integer' name='Waking up' ordinal='3' />
+            <column datatype='integer' name='Sleep length' ordinal='4' />
+            <column datatype='integer' name='Sleep quality' ordinal='5' />
+            <column datatype='integer' name='Alertness 1' ordinal='6' />
+            <column datatype='integer' name='Alertness 2' ordinal='7' />
+            <column datatype='integer' name='Alertness 3' ordinal='8' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>ID Number</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ID Number]</local-name>
+            <parent-name>[Clipboard_20150419T135709#txt]</parent-name>
+            <remote-alias>ID Number</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Date</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[Date]</local-name>
+            <parent-name>[Clipboard_20150419T135709#txt]</parent-name>
+            <remote-alias>Date</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;date&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Falling asleep</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Falling asleep]</local-name>
+            <parent-name>[Clipboard_20150419T135709#txt]</parent-name>
+            <remote-alias>Falling asleep</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Waking up</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Waking up]</local-name>
+            <parent-name>[Clipboard_20150419T135709#txt]</parent-name>
+            <remote-alias>Waking up</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sleep length</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Sleep length]</local-name>
+            <parent-name>[Clipboard_20150419T135709#txt]</parent-name>
+            <remote-alias>Sleep length</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sleep quality</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Sleep quality]</local-name>
+            <parent-name>[Clipboard_20150419T135709#txt]</parent-name>
+            <remote-alias>Sleep quality</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Alertness 1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Alertness 1]</local-name>
+            <parent-name>[Clipboard_20150419T135709#txt]</parent-name>
+            <remote-alias>Alertness 1</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Alertness 2</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Alertness 2]</local-name>
+            <parent-name>[Clipboard_20150419T135709#txt]</parent-name>
+            <remote-alias>Alertness 2</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Alertness 3</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Alertness 3]</local-name>
+            <parent-name>[Clipboard_20150419T135709#txt]</parent-name>
+            <remote-alias>Alertness 3</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name></remote-name>
+            <remote-type>0</remote-type>
+            <parent-name>[Clipboard_20150419T135709#txt]</parent-name>
+            <remote-alias></remote-alias>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;\\t&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <column datatype='integer' name='[ID Number]' role='dimension' type='ordinal'>
+      </column>
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <layout dim-ordering='alphabetic' dim-percentage='0.5' measure-ordering='alphabetic' measure-percentage='0.4' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='TBACKGROUND' name='Clipboard_20150419T135618' />
+            <datasource caption='TSLEEPALERT' name='Clipboard_20150419T135709' />
+          </datasources>
+          <datasource-dependencies datasource='Clipboard_20150419T135618'>
+            <column datatype='integer' name='[ID Number]' role='dimension' type='ordinal'>
+            </column>
+            <column-instance column='[ID Number]' derivation='None' name='[none:ID Number:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <datasource-dependencies datasource='Clipboard_20150419T135709'>
+            <column datatype='integer' name='[Alertness 1]' role='measure' type='quantitative'>
+            </column>
+            <column-instance column='[Alertness 1]' derivation='Sum' name='[sum:Alertness 1:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+        </style>
+        <panes>
+          <pane>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[Clipboard_20150419T135709].[sum:Alertness 1:qk]</rows>
+        <cols>[Clipboard_20150419T135618].[none:ID Number:ok]</cols>
+      </table>
+    </worksheet>
+  </worksheets>
+  <windows>
+    <window class='schema' source-height='-1' />
+    <window auto-hidden='0' class='worksheet' maximized='1' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='31'>
+            <card type='columns' />
+          </strip>
+          <strip size='31'>
+            <card type='rows' />
+          </strip>
+        </edge>
+      </cards>
+      <highlight>
+        <color-one-way>
+          <field>[Clipboard_20150419T135618].[none:ID Number:ok]</field>
+        </color-one-way>
+      </highlight>
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+      gg==
+    </thumbnail>
+  </thumbnails>
+</workbook>
