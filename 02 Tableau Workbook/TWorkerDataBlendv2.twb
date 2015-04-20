@@ -5,191 +5,8 @@
   <preferences>
   </preferences>
   <datasources>
-    <datasource caption='TSLEEPALERT' inline='true' name='Clipboard_20150419T135709' version='8.3'>
-      <connection class='textscan' directory='C:/cs329e/DataVisualization' filename='TSLEEPALERT.csv'>
-        <relation name='TSLEEPALERT#csv' table='[TSLEEPALERT#csv]' type='table'>
-          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
-            <column datatype='integer' name='ID Number' ordinal='0' />
-            <column datatype='date' name='Date' ordinal='1' />
-            <column datatype='integer' name='Falling asleep' ordinal='2' />
-            <column datatype='integer' name='Waking up' ordinal='3' />
-            <column datatype='integer' name='Sleep length' ordinal='4' />
-            <column datatype='integer' name='Sleep quality' ordinal='5' />
-            <column datatype='integer' name='Alertness 1' ordinal='6' />
-            <column datatype='integer' name='Alertness 2' ordinal='7' />
-            <column datatype='integer' name='Alertness 3' ordinal='8' />
-          </columns>
-        </relation>
-        <metadata-records>
-          <metadata-record class='column'>
-            <remote-name>ID Number</remote-name>
-            <remote-type>20</remote-type>
-            <local-name>[ID Number]</local-name>
-            <parent-name>[TSLEEPALERT#csv]</parent-name>
-            <remote-alias>ID Number</remote-alias>
-            <ordinal>0</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Date</remote-name>
-            <remote-type>133</remote-type>
-            <local-name>[Date]</local-name>
-            <parent-name>[TSLEEPALERT#csv]</parent-name>
-            <remote-alias>Date</remote-alias>
-            <ordinal>1</ordinal>
-            <local-type>date</local-type>
-            <aggregation>Year</aggregation>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4</attribute>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;date&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Falling asleep</remote-name>
-            <remote-type>20</remote-type>
-            <local-name>[Falling asleep]</local-name>
-            <parent-name>[TSLEEPALERT#csv]</parent-name>
-            <remote-alias>Falling asleep</remote-alias>
-            <ordinal>2</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Waking up</remote-name>
-            <remote-type>20</remote-type>
-            <local-name>[Waking up]</local-name>
-            <parent-name>[TSLEEPALERT#csv]</parent-name>
-            <remote-alias>Waking up</remote-alias>
-            <ordinal>3</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Sleep length</remote-name>
-            <remote-type>20</remote-type>
-            <local-name>[Sleep length]</local-name>
-            <parent-name>[TSLEEPALERT#csv]</parent-name>
-            <remote-alias>Sleep length</remote-alias>
-            <ordinal>4</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Sleep quality</remote-name>
-            <remote-type>20</remote-type>
-            <local-name>[Sleep quality]</local-name>
-            <parent-name>[TSLEEPALERT#csv]</parent-name>
-            <remote-alias>Sleep quality</remote-alias>
-            <ordinal>5</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Alertness 1</remote-name>
-            <remote-type>20</remote-type>
-            <local-name>[Alertness 1]</local-name>
-            <parent-name>[TSLEEPALERT#csv]</parent-name>
-            <remote-alias>Alertness 1</remote-alias>
-            <ordinal>6</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Alertness 2</remote-name>
-            <remote-type>20</remote-type>
-            <local-name>[Alertness 2]</local-name>
-            <parent-name>[TSLEEPALERT#csv]</parent-name>
-            <remote-alias>Alertness 2</remote-alias>
-            <ordinal>7</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Alertness 3</remote-name>
-            <remote-type>20</remote-type>
-            <local-name>[Alertness 3]</local-name>
-            <parent-name>[TSLEEPALERT#csv]</parent-name>
-            <remote-alias>Alertness 3</remote-alias>
-            <ordinal>8</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='capability'>
-            <remote-name></remote-name>
-            <remote-type>0</remote-type>
-            <parent-name>[TSLEEPALERT#csv]</parent-name>
-            <remote-alias></remote-alias>
-            <aggregation>Count</aggregation>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
-              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
-              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
-              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
-              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
-            </attributes>
-          </metadata-record>
-        </metadata-records>
-      </connection>
-      <aliases enabled='yes' />
-      <column caption='Start Alertness' datatype='integer' name='[Alertness 2]' role='measure' type='quantitative'>
-      </column>
-      <column caption='End Alertness' datatype='integer' name='[Alertness 3]' role='measure' type='quantitative'>
-      </column>
-      <column datatype='integer' name='[ID Number]' role='dimension' type='ordinal'>
-      </column>
-      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
-        <calculation class='tableau' formula='1' />
-      </column>
-      <layout dim-ordering='alphabetic' dim-percentage='0.5' measure-ordering='alphabetic' measure-percentage='0.4' show-structure='true' />
-      <semantic-values>
-        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
-      </semantic-values>
-    </datasource>
     <datasource caption='TBACKGROUND' inline='true' name='Clipboard_20150419T135618' version='8.3'>
-      <connection class='textscan' directory='C:/cs329e/DataVisualization' filename='TSLEEPALERT.csv'>
+      <connection class='textscan' directory='C:/cs329e/DataVisualization/DV_TableauProject3' filename='TBACKGROUND.csv'>
         <relation name='TBACKGROUND#csv' table='[TBACKGROUND#csv]' type='table'>
           <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
             <column datatype='integer' name='ID Number' ordinal='0' />
@@ -1511,30 +1328,12 @@
       </column>
       <column aggregation='Hour' datatype='datetime' name='[Wed Start Time]' role='dimension' type='ordinal'>
       </column>
-      <column-instance column='[Sleep apnea]' derivation='Avg' name='[avg:Sleep apnea:qk]' pivot='key' type='quantitative' />
       <column-instance column='[Diagnosed sleep disorder]' derivation='None' name='[none:Diagnosed sleep disorder:ok]' pivot='key' type='ordinal' />
       <column-instance column='[Sleep apnea]' derivation='None' name='[none:Sleep apnea:ok]' pivot='key' type='ordinal' />
-      <column-instance column='[Sleep apnea]' derivation='Sum' name='[sum:Sleep apnea:qk]' pivot='key' type='quantitative' />
       <layout dim-ordering='alphabetic' dim-percentage='0.5' measure-ordering='alphabetic' measure-percentage='0.4' show-structure='true' />
       <style>
         <style-rule element='mark'>
           <encoding attr='color' field='[none:Sleep apnea:ok]' type='palette'>
-            <map to='#cfcfcf'>
-              <bucket>%null%</bucket>
-            </map>
-            <map to='#ff7f0e'>
-              <bucket>1</bucket>
-            </map>
-          </encoding>
-          <encoding attr='color' field='[avg:Sleep apnea:qk]' type='palette'>
-            <map to='#cfcfcf'>
-              <bucket>%null%</bucket>
-            </map>
-            <map to='#ff7f0e'>
-              <bucket>1</bucket>
-            </map>
-          </encoding>
-          <encoding attr='color' field='[sum:Sleep apnea:qk]' type='palette'>
             <map to='#cfcfcf'>
               <bucket>%null%</bucket>
             </map>
@@ -1564,6 +1363,189 @@
         <column caption='End Alertness' datatype='integer' name='[Alertness 3]' role='measure' type='quantitative'>
         </column>
       </datasource-dependencies>
+    </datasource>
+    <datasource caption='TSLEEPALERT' inline='true' name='Clipboard_20150419T135709' version='8.3'>
+      <connection class='textscan' directory='C:/cs329e/DataVisualization/DV_TableauProject3' filename='TSLEEPALERT.csv'>
+        <relation name='TSLEEPALERT#csv' table='[TSLEEPALERT#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='ID Number' ordinal='0' />
+            <column datatype='date' name='Date' ordinal='1' />
+            <column datatype='integer' name='Falling asleep' ordinal='2' />
+            <column datatype='integer' name='Waking up' ordinal='3' />
+            <column datatype='integer' name='Sleep length' ordinal='4' />
+            <column datatype='integer' name='Sleep quality' ordinal='5' />
+            <column datatype='integer' name='Alertness 1' ordinal='6' />
+            <column datatype='integer' name='Alertness 2' ordinal='7' />
+            <column datatype='integer' name='Alertness 3' ordinal='8' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>ID Number</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ID Number]</local-name>
+            <parent-name>[TSLEEPALERT#csv]</parent-name>
+            <remote-alias>ID Number</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Date</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[Date]</local-name>
+            <parent-name>[TSLEEPALERT#csv]</parent-name>
+            <remote-alias>Date</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;date&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Falling asleep</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Falling asleep]</local-name>
+            <parent-name>[TSLEEPALERT#csv]</parent-name>
+            <remote-alias>Falling asleep</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Waking up</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Waking up]</local-name>
+            <parent-name>[TSLEEPALERT#csv]</parent-name>
+            <remote-alias>Waking up</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sleep length</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Sleep length]</local-name>
+            <parent-name>[TSLEEPALERT#csv]</parent-name>
+            <remote-alias>Sleep length</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sleep quality</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Sleep quality]</local-name>
+            <parent-name>[TSLEEPALERT#csv]</parent-name>
+            <remote-alias>Sleep quality</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Alertness 1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Alertness 1]</local-name>
+            <parent-name>[TSLEEPALERT#csv]</parent-name>
+            <remote-alias>Alertness 1</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Alertness 2</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Alertness 2]</local-name>
+            <parent-name>[TSLEEPALERT#csv]</parent-name>
+            <remote-alias>Alertness 2</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Alertness 3</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Alertness 3]</local-name>
+            <parent-name>[TSLEEPALERT#csv]</parent-name>
+            <remote-alias>Alertness 3</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name></remote-name>
+            <remote-type>0</remote-type>
+            <parent-name>[TSLEEPALERT#csv]</parent-name>
+            <remote-alias></remote-alias>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Start Alertness' datatype='integer' name='[Alertness 2]' role='measure' type='quantitative'>
+      </column>
+      <column caption='End Alertness' datatype='integer' name='[Alertness 3]' role='measure' type='quantitative'>
+      </column>
+      <column datatype='integer' name='[ID Number]' role='dimension' type='ordinal'>
+      </column>
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <layout dim-ordering='alphabetic' dim-percentage='0.5' measure-ordering='alphabetic' measure-percentage='0.4' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
     </datasource>
   </datasources>
   <worksheets>
@@ -1714,6 +1696,8 @@
           <field>[Clipboard_20150419T135709].[avg:Sleep quality:qk]</field>
         </color-one-way>
       </highlight>
+      <viewpoint>
+      </viewpoint>
     </window>
     <window auto-hidden='0' class='worksheet' maximized='1' name='AlertnessDiff'>
       <cards>
