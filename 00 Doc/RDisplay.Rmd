@@ -21,35 +21,39 @@ Here is a list of definitions for all the variables.
 Here is what the left column of variables should look like in tableau.  
 ![](./Data.PNG)
 
-##Four Visaulizations
+##Four Visualizations
 
 **Alertness Differentiation** 
 Shows the average alertness during work and caffeine for each employee colored by the average alert difference (the difference between alertness at start of work to end of work)  
+**Analysis**:  Average alertness during work is non-correlated to average caffeine intake.  
 **Columns**:   
 **Rows**: ID Number- Discrete, Measure Names  
-**Color**: AGG(AVGAlertDiff)  
+**Color**: AGG(AVGAlertDiff) with calculation **ZN([AVGAlertDiff]) - LOOKUP(ZN([AVGAlertDiff]), -1)**  
 **Text**: Measure Values  
 **Measure Values**: AVG(Alertness During Work), AVG(Caffeine)  
 ![](./AlertnessDiff.PNG)
 
 **Quality vs Years**  
 A bar graph of the total years of service by employee colored by each employee's average sleep quality.  
+**Analysis**: The higher the total years of service, the better the overall sleep quality.  
 **Columns**: SUM(Total Years of Service) - Continuous  
 **Rows**: ID Number - Discrete  
 **Color**: AVG(Sleep Quality)  
 ![](./QualityvsYears.PNG)
 
-**Sleep Disorders vs Quality**  
-Shows years present in job verses average alertness of a railroad employee.
-**Columns**: ID Number - Dimension, Discrete
-**Rows**: Diagnosed sleep disorder - Dimension, Discrete; Sleep quality - Measure, Continuous
-**Definitions:** Sleep disorder (1=yes, 2=no), Sleep quality (scale 1-5, 1=very poor, 5=very good)
-![](./SleepDisordervsQuality.PNG)
+**Sleep Disorders vs Quality**
+Shows years present in job verses average alertness of a railroad employee.  
+**Analysis**:  Alertness in job ranges from 2.5-5 regardlesss of amount of years worked.  
+**Columns**: ID Number - Dimension, Discrete  
+**Rows**: Diagnosed sleep disorder - Dimension, Discrete; Sleep quality - Measure, Continuous  
+**Definitions:** Sleep alertness (Scale 1-5, 1=very sleepy, 5=very alert)    
+![](./SleepDisordervsQuality.PNG)  
 
-**Years Present vs Alertness**
+**Years Present vs Alertness**  
 Diagnosed sleeping disorder and sleep quality of ID number.  
-**Columns**: Years in present job - Dimension, Discrete
-**Rows**: Alertness 1 - Measure, Continuous
-**Changes:** Change sleep quality from sum to avg, liked by ID number
-**Definitions:** Sleep alertness (Scale 1-5, 1=very sleepy, 5=very alert) 
-![](./YearsPresentvsAlertness.PNG)
+**Analysis**: There are far fewer participants with a sleep disorder, ranging between 2-4 in sleep quality. Those without a sleep disorder have a sleep quality between 2.5-5.   
+**Columns**: Sleep Disorder (1 and 2), Years in present job - Dimension, Discrete  
+**Rows**: Sleep Quality  
+**Changes:** Change sleep quality from sum to avg, linked by ID number  
+**Definitions:** Sleep disorder (1=yes, 2=no), Sleep quality (scale 1-5, 1=very poor, 5=very good)  
+![](./YearsPresentvsAlertness.PNG)  
